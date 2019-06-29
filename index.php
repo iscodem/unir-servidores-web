@@ -23,6 +23,7 @@
         <div class="col-sm-8 main-section">
             <div class="modal-content">
                 <div class="col-12 user-img">
+                <?php echo 'hola amigos como estan' ?>
                     <img src="images/user.png"/>
                 </div>
                 <form class="col-12" method="get">
