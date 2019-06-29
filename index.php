@@ -15,7 +15,7 @@
     <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <!-- Nuestro css-->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css" >
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
 
 </head>
 <body>
