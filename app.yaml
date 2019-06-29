@@ -1,4 +1,4 @@
-runtime: unir-servidores-web
+runtime: php
 env: flex
 
 runtime_config:
