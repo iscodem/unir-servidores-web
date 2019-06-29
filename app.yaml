@@ -1,4 +1,4 @@
-runtime: php54
+runtime: php55
 api_version: 1
 
 handlers:
