@@ -23,7 +23,7 @@
         <div class="col-sm-8 main-section">
             <div class="modal-content">
                 <div class="col-12 user-img">
-                    <img src="static/user.png"/>
+                    <img src="images/user.png"/>
                 </div>
                 <form class="col-12" method="get">
                     <div class="form-group" id="user-group">
