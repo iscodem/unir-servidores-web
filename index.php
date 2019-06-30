@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-    <title>Mi primer Login</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Credenciales de acceso</title>
 
     <!--JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -18,15 +22,14 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css" >
 
 </head>
-<body>
+<body id="index">
     <div class="modal-dialog text-center">
         <div class="col-sm-8 main-section">
             <div class="modal-content">
                 <div class="col-12 user-img">
-                <?php echo 'hola amigos como estan' ?>
                     <img src="images/user.png"/>
                 </div>
-                <form class="col-12" method="get">
+                <form class="col-12" method="get" action="bienvenida.php">
                     <div class="form-group" id="user-group">
                         <input type="text" class="form-control" placeholder="Nombre de usuario" name="username"/>
                     </div>
@@ -35,6 +38,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i>  Ingresar </button>
                 </form>
+<!--
                 <div class="col-12 forgot">
                     <a href="#">Recordar contrasena?</a>
                 </div>
@@ -43,7 +47,8 @@
 		        </div>
 		        <div class="alert alert-success" role="alert">
 		            You have been logged out.
-		        </div>
+                </div>
+-->                
             </div>
         </div>
     </div>
